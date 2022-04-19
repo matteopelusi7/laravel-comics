@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 120px;
+    .logo {
+      width: 80px;
+    }
+    nav {
+      min-height: 120px;
+      display: flex;
+    }
+    .list-nav {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      font-weight: 700;
+      text-transform: uppercase;
+        li {
+          position: relative;
+          min-height: 120px;
+        }
+        a {
+          min-height: 120px;
+          display: flex;
+          align-items: center;
+          font-size: 15px;
+        }
+        .active:after {
+          content: '';
+          display: block;
+          height: 5px;
+          background-color: dodgerblue;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+        }
+        .active {
+          color: dodgerblue;
+        }
+    }
+}

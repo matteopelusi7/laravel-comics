@@ -1,0 +1,112 @@
+.footer-info .wrapper-img {
+    width: 40px;   
+}
+
+.footer-info ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-info ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: dodgerblue;
+}
+
+.container {
+    padding: 30px 0;
+}
+
+.footer-list {
+
+    background-image: url('/img/footer-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .container {
+        background-image: url('/img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: 90% 45%;
+        background-size: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+
+.list-wrapper {
+    display: flex;
+    gap: 5px;
+
+    li {
+        line-height: 20px;
+    }
+
+    li {
+      cursor: pointer;
+    }
+
+    ul li:first-child {
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+
+    ul {
+        padding: 10px 10px;
+        color: rgb(128, 128, 128);
+        font-size: 14px;
+    }
+  
+}
+
+.footer-social {
+
+    background-color: rgb(54, 54, 54);
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .list-social {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+    }
+
+    .list-social li:first-child {
+      font-weight: 700;
+      color: dodgerblue;
+      text-transform: uppercase;
+    }
+
+    .button {
+      padding: 15px;
+      border: 2px solid dodgerblue;
+      background-color: rgb(54, 54, 54);
+      color: white;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+}

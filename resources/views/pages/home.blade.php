@@ -4,6 +4,12 @@
 
 @section('mainContent')
 
-    
-    
+    <ul>
+
+        @foreach ($comics as $comic)
+        
+        @endforeach
+
+    </ul>
+
 @endsection
