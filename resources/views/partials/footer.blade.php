@@ -101,7 +101,7 @@
         <div class="footer-social">
           <div class="container">
             <div>
-              <button class="button">Sign-Up Now!</button>
+              <button class="button-footer">Sign-Up Now!</button>
             </div>
             <div>
               <ul class="list-social">

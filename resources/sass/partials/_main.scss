@@ -1,0 +1,60 @@
+main {
+    background: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.background-main {
+    background-image: url('/img/jumbotron.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.container {
+
+    .button {
+      background-color: dodgerblue;
+      color: white;
+      border: none;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .button-jumbo {
+      font-size: 18px;
+      padding: 15px;
+      transform: translate(-15%, -90%);
+    }
+    .button-end {
+      padding: 10px 40px;
+      display: flex;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .card-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding-bottom: 30px;
+    }
+
+}
+
+
+.card-item {
+    flex-basis: calc( (100% / 6) - 15px);
+    height: 220px;
+    
+    img {
+      aspect-ratio: 1;
+      object-fit: cover;
+      object-position: top center;
+    }
+    p {
+      text-transform: uppercase;
+      padding: 15px 0;
+    }
+}

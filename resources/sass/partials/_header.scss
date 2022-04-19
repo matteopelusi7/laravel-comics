@@ -1,16 +1,20 @@
-.container {
+.container-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    min-height: 120px;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 10px 0;
+
     .logo {
       width: 80px;
     }
+
     nav {
-      min-height: 120px;
       display: flex;
     }
+
     .list-nav {
       display: flex;
       align-items: center;
@@ -18,16 +22,17 @@
       flex-wrap: wrap;
       font-weight: 700;
       text-transform: uppercase;
+
         li {
           position: relative;
-          min-height: 120px;
         }
+
         a {
-          min-height: 120px;
           display: flex;
           align-items: center;
           font-size: 15px;
         }
+
         .active:after {
           content: '';
           display: block;
@@ -37,8 +42,11 @@
           bottom: 0;
           width: 100%;
         }
+
         .active {
           color: dodgerblue;
         }
+
     }
+
 }

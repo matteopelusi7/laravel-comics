@@ -1,21 +1,22 @@
-.container {
+.container-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  min-height: 120px;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 10px 0;
 }
 
-.container .logo {
+.container-header .logo {
   width: 80px;
 }
 
-.container nav {
-  min-height: 120px;
+.container-header nav {
   display: flex;
 }
 
-.container .list-nav {
+.container-header .list-nav {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -24,19 +25,17 @@
   text-transform: uppercase;
 }
 
-.container .list-nav li {
+.container-header .list-nav li {
   position: relative;
-  min-height: 120px;
 }
 
-.container .list-nav a {
-  min-height: 120px;
+.container-header .list-nav a {
   display: flex;
   align-items: center;
   font-size: 15px;
 }
 
-.container .list-nav .active:after {
+.container-header .list-nav .active:after {
   content: "";
   display: block;
   height: 5px;
@@ -46,7 +45,7 @@
   width: 100%;
 }
 
-.container .list-nav .active {
+.container-header .list-nav .active {
   color: dodgerblue;
 }
 
@@ -56,7 +55,7 @@
 
 .footer-info ul {
   display: flex;
-  gap: 20px;
+  gap: 80px;
   flex-wrap: wrap;
   color: white;
   text-transform: uppercase;
@@ -147,7 +146,7 @@ footer {
   text-transform: uppercase;
 }
 
-.footer-social .button {
+.footer-social .button-footer {
   padding: 15px;
   border: 2px solid dodgerblue;
   background-color: rgb(54, 54, 54);
@@ -155,6 +154,68 @@ footer {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
+}
+
+main {
+  background: black;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.background-main {
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+.container .button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.container .button-jumbo {
+  font-size: 18px;
+  padding: 15px;
+  transform: translate(-15%, -90%);
+}
+
+.container .button-end {
+  padding: 10px 40px;
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.container .card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-bottom: 30px;
+}
+
+.card-item {
+  flex-basis: calc(16.6666666667% - 15px);
+  height: 220px;
+}
+
+.card-item img {
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+
+.card-item p {
+  text-transform: uppercase;
+  padding: 15px 0;
 }
 
 * {

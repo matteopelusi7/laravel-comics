@@ -1,6 +1,6 @@
 <header>
 
-    <div class="container">
+    <div class="container-header">
 
         <figure class="logo">
           <img src="../img/dc-logo.png" alt="">
