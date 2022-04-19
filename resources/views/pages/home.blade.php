@@ -16,12 +16,16 @@
 
         <ul class="card-wrapper">
 
-            <li class="card-item">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <p></p>
-            </li>
+            @foreach ($comics as $comic)
+            
+                <li class="card-item">
+                    <figure>
+                        <img src="{{ $comic['thumb'] }}" alt="">
+                    </figure>
+                    <p>{{ $comic['series'] }}</p>
+                </li>
+
+            @endforeach
             
         </ul>
 
