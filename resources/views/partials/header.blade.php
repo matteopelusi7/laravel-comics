@@ -11,8 +11,8 @@
             <li>
                 <a>Characters</a>
             </li>
-            <li>
-                <a>Comics</a>
+            <li class="active">
+                <a href="{{ route('comics.index') }}">Comics</a>
             </li>
             <li>
                 <a>Movies</a>

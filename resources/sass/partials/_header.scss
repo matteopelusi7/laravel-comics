@@ -31,16 +31,7 @@
           display: flex;
           align-items: center;
           font-size: 15px;
-        }
-
-        .active:after {
-          content: '';
-          display: block;
-          height: 5px;
-          background-color: dodgerblue;
-          position: absolute;
-          bottom: 0;
-          width: 100%;
+          cursor: pointer;
         }
 
         .active {

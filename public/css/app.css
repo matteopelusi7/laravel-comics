@@ -7,15 +7,12 @@
   max-width: 1100px;
   padding: 10px 0;
 }
-
 .container-header .logo {
   width: 80px;
 }
-
 .container-header nav {
   display: flex;
 }
-
 .container-header .list-nav {
   display: flex;
   align-items: center;
@@ -24,27 +21,15 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-
 .container-header .list-nav li {
   position: relative;
 }
-
 .container-header .list-nav a {
   display: flex;
   align-items: center;
   font-size: 15px;
+  cursor: pointer;
 }
-
-.container-header .list-nav .active:after {
-  content: "";
-  display: block;
-  height: 5px;
-  background-color: dodgerblue;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 .container-header .list-nav .active {
   color: dodgerblue;
 }
@@ -79,14 +64,13 @@ footer {
 }
 
 .footer-list {
-  background-image: url("/img/footer-bg.jpg");
+  background-image: url("../img/footer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .footer-list .container {
-  background-image: url("/img/dc-logo-bg.png");
+  background-image: url("../img/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: 90% 45%;
   background-size: auto;
@@ -99,15 +83,12 @@ footer {
   display: flex;
   gap: 5px;
 }
-
 .list-wrapper li {
   line-height: 20px;
 }
-
 .list-wrapper li {
   cursor: pointer;
 }
-
 .list-wrapper ul li:first-child {
   color: white;
   text-transform: uppercase;
@@ -115,7 +96,6 @@ footer {
   font-weight: 600;
   padding-bottom: 20px;
 }
-
 .list-wrapper ul {
   padding: 10px 10px;
   color: rgb(128, 128, 128);
@@ -125,27 +105,23 @@ footer {
 .footer-social {
   background-color: rgb(54, 54, 54);
 }
-
 .footer-social .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
 }
-
 .footer-social .list-social {
   display: flex;
   align-items: center;
   gap: 20px;
   cursor: pointer;
 }
-
 .footer-social .list-social li:first-child {
   font-weight: 700;
   color: dodgerblue;
   text-transform: uppercase;
 }
-
 .footer-social .button-footer {
   padding: 15px;
   border: 2px solid dodgerblue;
@@ -163,7 +139,7 @@ main {
 }
 
 .background-main {
-  background-image: url("/img/jumbotron.jpg");
+  background-image: url("../img/jumbotron.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -177,20 +153,17 @@ main {
   text-transform: uppercase;
   font-weight: 700;
 }
-
 .container .button-jumbo {
   font-size: 18px;
   padding: 15px;
   transform: translate(-15%, -90%);
 }
-
 .container .button-end {
   padding: 10px 40px;
   display: flex;
   margin: 0 auto;
   cursor: pointer;
 }
-
 .container .card-wrapper {
   display: flex;
   justify-content: center;
@@ -204,7 +177,6 @@ main {
   flex-basis: calc(16.6666666667% - 15px);
   height: 220px;
 }
-
 .card-item img {
   aspect-ratio: 1;
   -o-object-fit: cover;
@@ -212,7 +184,6 @@ main {
   -o-object-position: top center;
      object-position: top center;
 }
-
 .card-item p {
   text-transform: uppercase;
   padding: 15px 0;
@@ -248,4 +219,3 @@ a {
   margin: 0 auto;
   max-width: 1100px;
 }
-
