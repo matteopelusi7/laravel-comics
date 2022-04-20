@@ -192,6 +192,7 @@ main {
 .main-comics {
   background-color: white;
   color: black;
+  margin-bottom: -20px;
 }
 
 .container-comics {
@@ -254,6 +255,10 @@ main {
   width: 220px;
 }
 
+.description {
+  color: gray;
+}
+
 .container-comics-2 {
   background-color: rgb(231, 231, 231);
   padding: 30px 0;
@@ -262,6 +267,40 @@ main {
 .back-dodge {
   background-color: dodgerblue;
   height: 65px;
+}
+
+.container-b {
+  margin: 0 auto;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+.container-b .cont {
+  width: 50%;
+}
+.container-b .aut {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.container-b .aut-1 {
+  width: 60%;
+}
+.container-b .aut-3 {
+  flex-wrap: wrap;
+  display: flex;
+}
+.container-b h3 {
+  padding-bottom: 20px;
+  color: rgb(6, 6, 160);
+  font-size: 22px;
+}
+.container-b .lightblue {
+  color: rgb(79, 196, 235);
 }
 
 * {
