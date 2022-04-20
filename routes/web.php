@@ -19,7 +19,7 @@ Route::get('/', function () {
 
     return view('pages.home', ['comics'=> $comics]);
 
-});
+})->name('comics.base');
 
 Route::get('/comics', function () {
 

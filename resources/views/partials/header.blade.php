@@ -8,10 +8,10 @@
         
         <nav>
           <ul class="list-nav">
-            <li>
-                <a>Characters</a>
+            <li class="{{ Request::route()->getName() == 'comics.base' ? 'active' : '' }}">
+                <a href="/">Characters</a>
             </li>
-            <li class="active">
+            <li class="{{ Request::route()->getName() == 'comics.index' ? 'active' : '' }}">
                 <a href="{{ route('comics.index') }}">Comics</a>
             </li>
             <li>
