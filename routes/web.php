@@ -37,6 +37,6 @@ Route::get('/comics/{id}', function ($id) {
 
     $detail = $comics[$id];
 
-    return view('pages.details', ['comics'=> $comics]);
+    return view('pages.details', ['comics'=> $detail]);
 
 })->where('id', '[0-9]+')->name('comics.show');

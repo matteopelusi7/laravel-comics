@@ -189,6 +189,81 @@ main {
   padding: 15px 0;
 }
 
+.main-comics {
+  background-color: white;
+  color: black;
+}
+
+.container-comics {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.container-comics .img-f {
+  transform: translate(50%, -130%);
+  width: 150px;
+}
+.container-comics h2 {
+  font-size: 27px;
+  text-transform: uppercase;
+  color: rgb(6, 6, 160);
+  padding-bottom: 10px;
+}
+.container-comics .bar-green {
+  background-color: rgb(98, 187, 98);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 12px;
+  width: 100%;
+  color: rgb(231, 231, 231);
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.container-comics .bar-green div {
+  display: flex;
+}
+.container-comics .bar-green .avaible, .container-comics .bar-green .price {
+  padding-right: 20px;
+}
+.container-comics .bar-green .price {
+  text-transform: capitalize;
+}
+.container-comics .bar-green .p-1 {
+  color: white;
+}
+.container-comics .cont-com {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 80px 0;
+  margin: -30px -100px;
+}
+.container-comics .cont-com .cont-1 {
+  width: 50%;
+}
+.container-comics .cont-com .cont-2 {
+  width: 40%;
+}
+.container-comics .fig {
+  text-align: end;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 14px;
+}
+.container-comics .fig figure {
+  width: 220px;
+}
+
+.container-comics-2 {
+  background-color: rgb(231, 231, 231);
+  padding: 30px 0;
+}
+
+.back-dodge {
+  background-color: dodgerblue;
+  height: 65px;
+}
+
 * {
   margin: 0;
   padding: 0;

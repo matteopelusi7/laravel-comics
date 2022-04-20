@@ -1,35 +1,56 @@
 @extends('layouts.standard')
 
-@section('title', 'Comics')
+@section('title', $comics['series'])
 
 @section('mainContent')
 
-    <main>
+    <main class="main-comics">
 
         <div class="background-main">
 
         </div>
 
-        <div class="container">
-        
-        <button class="button button-jumbo">Current Series</button>
+        <div class="back-dodge"></div>
 
-        <ul class="card-wrapper">
-
-            @foreach ($comics as $index => $comic)
+        <div class="container-comics">
             
-                <a href="" class="card-item">
+            <div class="cont-com">
+
+                <figure class="img-f">
+                    <img src="{{ $comics['thumb'] }}" alt="">
+                </figure>
+
+                <div class="cont-1">
+                    <h2>{{ $comics['title'] }}</h2>
+                    <div class="bar-green">
+                        <div>
+                            <p class="price">U.s. Price</p>
+                            <p class="p-1">{{ $comics['price'] }}</p>
+                        </div>
+                        <div>
+                            <p class="avaible">Available</p>
+                            <p class="p-1">Chech Availability</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>{{ $comics['description'] }}</p>
+                    </div>
+                </div>
+                <div class="fig">
+                    <p>Advertising</p>
                     <figure>
-                        <img src="{{ $comic['thumb'] }}" alt="">
+                        <img src="../img/adv.jpg" alt="">
                     </figure>
-                    <p>{{ $comic['series'] }}</p>
-                </a>
+                </div>
+            </div>
 
-            @endforeach
-            
-        </ul>
+        </div>
 
-        <button class="button button-end">Load More</button>
+        <div class="container-comics-2">
+
+            <div class="container">
+                
+            </div>
 
         </div>
         

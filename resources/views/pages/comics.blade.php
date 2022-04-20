@@ -16,14 +16,14 @@
 
         <ul class="card-wrapper">
 
-            @foreach ($comics as $comic)
+            @foreach ($comics as $index => $comic)
             
-                <li class="card-item">
+                <a href="{{ route('comics.show', [ 'id' => $index ]) }}" class="card-item">
                     <figure>
                         <img src="{{ $comic['thumb'] }}" alt="">
                     </figure>
                     <p>{{ $comic['series'] }}</p>
-                </li>
+                </a>
 
             @endforeach
             
